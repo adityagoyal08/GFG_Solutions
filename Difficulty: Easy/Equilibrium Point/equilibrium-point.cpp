@@ -20,7 +20,8 @@ class Solution {
         // when i == j then check the sums
         // if equal == got the equ point
         // not equal then -1 return
-        
+
+      // ---------------------------This logic fails for more number of values ---------------------------
         // int i = 0;
         // int j = arr.size()-1;
         
@@ -53,22 +54,25 @@ class Solution {
         // return -1;
         
         
-        //----------------------- ANOTHER LOGIC HERE---------------------
+      //----------------------- ANOTHER LOGIC HERE---------------------
+      // This logic works everytime
         
-            int n = arr.size();
-          int ls=0,rs=0;
-        for(int i=0;i<n;i++){
+      int n = arr.size();
+      int ls=0,rs=0;
+        
+      for(int i=0;i<n;i++){
             ls+=arr[i];
-        }
-        for(int i=n-1;i>=0;i--){
-            rs+=arr[i];
-            if(ls==rs){
-                return i+1;
-            }
-            ls-=arr[i];
-        }
+      }
+      
+      for(int i=n-1;i>=0;i--){
+          rs+=arr[i];
+          if(ls==rs){
+              return i+1;
+          }
+          ls-=arr[i];
+      }
         
-        return -1;
+      return -1;
         
         
         
