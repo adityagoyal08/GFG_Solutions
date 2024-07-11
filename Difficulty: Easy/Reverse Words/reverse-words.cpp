@@ -12,17 +12,6 @@ class Solution
     { 
         // code here 
         
-        // idea here:
-        // we will have two pointers from start and End
-        // while(i < j) some condition
-        // str[i] == '.' then save the string before .
-        // str[j] == '.' then save the strinn after .
-        // then replace the strings
-        // empty the local saving strings and re run the loop
-        // from next occurence.
-        
-        // make sure the while condition given must be correct!
-        
         // Pointers here
         int i=0;
         int size= S.length();
