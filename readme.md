@@ -4,7 +4,7 @@ Welcome to my GeeksforGeeks (GFG) Solutions Repository! This repository contains
 
 ## About
 
-This repository is a collection of solutions to problems from GeeksforGeeks. The solutions are written in C++ (or specify any other language(s) you're using). Each solution is designed to be clear, concise, and well-documented. The aim is to help others understand various problem-solving techniques and algorithms.
+This repository is a collection of solutions to problems from GeeksforGeeks. The solutions are written in C++. Each solution is designed to be clear, concise, and well-documented. The aim is to help others understand various problem-solving techniques and algorithms.
 
 ## How to Use
 
