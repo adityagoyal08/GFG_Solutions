@@ -8,32 +8,34 @@ using namespace std;
 class Solution
 {
     public:
-    void swap(int &a,int &b){
-        int temp = a;
-        a = b;
-        b = temp;
-    }
+    // void swap(int &a,int &b){
+    //     int temp = a;
+    //     a = b;
+    //     b = temp;
+    // }
     
     void sort012(int a[], int n)
     {
         // code here 
-        int zero = 0;
-        for (int i=0;i<n;i++){
+        // int zero = 0;
+        // for (int i=0;i<n;i++){
             
-            if(a[i] == 0){
-                swap(a[zero], a[i]);
-                zero++;
+        //     if(a[i] == 0){
+        //         swap(a[zero], a[i]);
+        //         zero++;
                 
-            }
-        }
+        //     }
+        // }
         
-        int one = zero;
-        for(int i=one;i< n;i++){
-            if(a[i] == 1){
-                swap(a[one],a[i]);
-                one++;
-            }
-        }
+        // int one = zero;
+        // for(int i=one;i< n;i++){
+        //     if(a[i] == 1){
+        //         swap(a[one],a[i]);
+        //         one++;
+        //     }
+        // }
+        
+        sort(a,a+n);
     }
     
 };
